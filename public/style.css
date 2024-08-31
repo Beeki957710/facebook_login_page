@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+#dmain {
+    margin-right: 70px;
+    margin-top: 200px;
+   
+}
+
+#d1 {
+    height: 50px;
+    width: 259px;
+    background-image: url("Fb_Logo_.png");
+    background-size: contain;
+    display: flex;
+}
+
+#d2 {
+    font-size: 28px;
+    margin-top: 22px;
+    margin-right: 25px;
+}
+
+
+
+form {
+    height: 355px;
+    width: 396px;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 130px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    height: 51px;
+    width: 335px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 1.5px solid #CCCCCC;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #1877f2;
+  }
+  ::placeholder {
+    color: #777;
+    font-size: 1.063rem;
+  }
+
+#btn1 {
+    height: 49px;
+    width: 363px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 0.5rem;
+    border: 1.5px solid white;
+    background: #1877f2;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#btn1:hover {
+    background: #0d65d9;
+  }
+
+#btn2 {
+    height: 48px;
+    width: 192px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 0.5rem;
+    border: 1.5px solid white;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+#btn2:hover {
+    background:#3ba626;
+}
+
+#p {
+    margin-left: 125px;
+    font-size: 14px;
+    margin-top: 17px;
+    cursor: pointer;
+    color: #1877f2;
+}
+
+#p:hover{
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 19px;
+  }
+
+
+
